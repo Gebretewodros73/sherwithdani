@@ -1,1 +1,14 @@
-this is what i get i have pushed the shell.c and shell.h to project repository push the please after checking push execute.c and path.c this i hope this will do up to task 5
+Team project on simple_shell 
+Done by Daniel and Tewodros
+TASK 1
+#Display a prompt and wait for the user to type a command. A command line always ends with a new line.
+#The prompt is displayed again each time a command has been executed.
+#The command lines are simple, no semicolons, no pipes, no redirections or any other advanced features.
+#The command lines are made only of one word. No arguments will be passed to programs.
+#If an executable cannot be found, print an error message and display the prompt again.
+#Handle errors.
+#You have to handle the “end of file” condition (Ctrl+D)
+#Handle command lines with arguments
+#Handle the PATH
+#fork must not be called if the command doesn’t exist
+#Implement the env built-in, that prints the current environment
